@@ -47,10 +47,14 @@ pip freeze > requirements.txt
 
 ---
 
-### 📁 Ignorar el entorno virtual en Git
+### 📁 Ignorar el entorno virtual de Python en Git y otras carpetas generadas por Python
 
 Agregá esta línea a tu archivo `.gitignore` para evitar subir `.venv/` al repositorio:
 
 ```gitignore
 .venv/
+*.pyc
+__pycache__/
+*.pyo
+*.log
 ```
