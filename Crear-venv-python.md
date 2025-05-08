@@ -1,4 +1,4 @@
-### Resumen
+## Resumen
 
 Como crear venv de python para instalar paquetes de manera prolija y saber donde estan por si quiero desinstalar etc. Además como poner todo lo instalado en requeriments.txt, para que después en un repo nuevo, me creo el venv y le instalo todo junto. Asi se siempre qué intérprete de Python estoy usando y qué paquetes tengo qué versiones etc.
 
