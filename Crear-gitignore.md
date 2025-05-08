@@ -11,10 +11,24 @@ Agregar las siguientes líneas al archivo `.gitignore` para evitar subir archivo
 tmp/
 ```
 
-### venv de Python
+### venv de Python y otras lineas generadas por Python
 
-Agregar esta línea al archivo `.gitignore` para evitar subir `.venv/` al repositorio:
+Agregar esta línea al archivo `.gitignore` para evitar subir `.venv/` y las demás al repositorio:
+
+### 📁 Ignorar el entorno virtual de Python en Git y otras carpetas generadas por Python
+
+Agregá esta línea a tu archivo `.gitignore` para evitar subir `.venv/` al repositorio:
 
 ```gitignore
 .venv/
+__pycache__/
 ```
+> __pycache__/ es una carpeta que Python crea para almacenar los archivos .pyc y .pyo de cada módulo o script que se ejecute. Dentro de esta carpeta, Python guarda las versiones compiladas de tus archivos .py para que no tengan que ser recompiladas en futuras ejecuciones. Es nomás para hacerlo más eficiente.
+
+### Archivos *.log 
+
+```gitignore
+*.log
+```
+
+> El *.log en el archivo .gitignore sirve para ignorar todos los archivos de registro (logs) generados durante la ejecución del programa. Los archivos .log son comúnmente utilizados para registrar información, errores o advertencias sobre el comportamiento de una aplicación o script, especialmente durante el desarrollo o la depuración.
