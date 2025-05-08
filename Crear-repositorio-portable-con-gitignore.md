@@ -35,13 +35,9 @@ Agregar las siguientes líneas al archivo `.gitignore` para evitar subir archivo
 tmp/
 ```
 
-### venv de Python y otras lineas generadas por Python
+### Venv de Python y otras lineas generadas por Python
 
 Agregar esta línea al archivo `.gitignore` para evitar subir `.venv/` y las demás al repositorio:
-
-### 📁 Ignorar el entorno virtual de Python en Git y otras carpetas generadas por Python
-
-Agregá esta línea a tu archivo `.gitignore` para evitar subir `.venv/` al repositorio:
 
 ```gitignore
 .venv/
