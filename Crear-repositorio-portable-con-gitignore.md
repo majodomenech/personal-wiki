@@ -1,3 +1,27 @@
+## 📁 Crear repositorio de trabajo portable
+
+```
+mi-proyecto/
+│
+├── .venv/               # Carpeta del entorno virtual (ignorada por Git)
+├── requirements.txt      # Archivo con las dependencias del proyecto
+├── script.py             # Tu código fuente
+├── README.md             # Documentación del proyecto
+└── .gitignore            # Archivos que se ignoran en el control de versiones
+```
+
+### Contenido total del archivo `.gitignore`
+
+```
+.venv/
+*.pyc
+__pycache__/
+*.pyo
+*.log
+```
+
+
+
 ## 📁 Ignorar archivos de trabajo en Git
 
 ### QE
